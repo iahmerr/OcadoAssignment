@@ -13,8 +13,8 @@ Task is to make:
 * The second screen will display more detailed information about a given product. We expect at least to show title, image, description and allergy information of the product.
 
 
-	* For iOS:
-* Language must be Swift
+ For iOS:
+ Language must be Swift
 
 ## Assessment:
 Once submitted, Things they value are 
