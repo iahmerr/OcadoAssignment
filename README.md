@@ -1,4 +1,4 @@
-# Ocado Technologies Assignment
+# Ocado Technologies Assignment using MVVM-C and RxSwift for binding
 The goal of this assignment is to evaluate the problem solving skills and code quality of the candidate.
 
 
