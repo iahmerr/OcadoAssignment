@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let disposeBag = DisposeBag()
     var appCoordinator: AppCoordinator?
     
-    fileprivate func appCoordinate(_ shortcutItem: UIApplicationShortcutItem? = nil) -> Observable<ResultType<Void>> {
+    fileprivate func appCoordinate(_ shortcutItem: UIApplicationShortcutItem? = nil) -> Observable<Result<Void, NavigarionError>> {
         appCoordinator = AppCoordinator(window: window!, shortcutItem: shortcutItem)
         return appCoordinator!.start().flatMap {[unowned self] _ in
             return self.appCoordinate()

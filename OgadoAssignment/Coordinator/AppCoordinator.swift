@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import RxSwift
 
-class AppCoordinator: BaseCoordinator<ResultType<Void>> {
+class AppCoordinator: BaseCoordinator<Result<Void,NavigarionError>> {
 
     private let window: UIWindow
     
@@ -18,7 +18,7 @@ class AppCoordinator: BaseCoordinator<ResultType<Void>> {
         super.init()
     }
 
-    override func start() -> Observable<ResultType<Void>> {
+    override func start() -> Observable<Result<Void,NavigarionError>> {
         HomeCoordinator()
         return Observable.never()
     }
@@ -27,7 +27,7 @@ class AppCoordinator: BaseCoordinator<ResultType<Void>> {
 //MARK: Navigation
 private extension AppCoordinator {
     
-    func HomeCoordinator() {
+    private func HomeCoordinator() {
         self.coordinate(to: ProductsCoordinator(window: window))
             .subscribe()
             .disposed(by: disposeBag)

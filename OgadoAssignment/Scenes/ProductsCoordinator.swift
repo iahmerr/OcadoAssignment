@@ -9,16 +9,16 @@ import Foundation
 import UIKit
 import RxSwift
 
-class ProductsCoordinator: BaseCoordinator<ResultType<ResultType<Void>>> {
+class ProductsCoordinator: BaseCoordinator<Result<Result<Void,NavigarionError>, NavigarionError>> {
     private let window: UIWindow
     var root: UINavigationController!
-    let result = PublishSubject<ResultType<ResultType<Void>>>()
+    let result = PublishSubject<Result<Result<Void, NavigarionError>, NavigarionError>>()
     
     init(window: UIWindow) {
         self.window = window
     }
     
-    override func start() -> Observable<ResultType<ResultType<Void>>> {
+    override func start() -> Observable<Result<Result<Void, NavigarionError>, NavigarionError>> {
         
         let viewModel = ProductsCatalogViewModel()
         let viewController = ProductsCatalogViewController(viewModel: viewModel)
@@ -34,7 +34,7 @@ class ProductsCoordinator: BaseCoordinator<ResultType<ResultType<Void>>> {
         return result
     }
     
-    func navigateToDetail(productId: Int) {
+    private func navigateToDetail(productId: Int) {
         let viewModel: ProductDetailViewModel = ProductDetailViewModel(productId: productId)
         let viewController: UIViewController = ProductDetailViewController(viewModel: viewModel)
         self.root.pushViewController(viewController, animated: true)
