@@ -103,7 +103,6 @@
 		7B42E4C7281B366400E28604 /* UIImageViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewFactory.swift; sourceTree = "<group>"; };
 		7B89D48B281EC7F90098FEBE /* RxDataSources */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RxDataSources; sourceTree = "<group>"; };
 		7B89D48C281EC81E0098FEBE /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RxSwift; sourceTree = "<group>"; };
-		7B89D48D281EC84A0098FEBE /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SDWebImage; sourceTree = "<group>"; };
 		7BCE28C1281F365F007894D5 /* OcadoAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcadoAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCE28C3281F365F007894D5 /* ProductsApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsApiTest.swift; sourceTree = "<group>"; };
 		7BD4A5E728207B60008DC04D /* ProductsCatalogViewModelUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCatalogViewModelUnitTest.swift; sourceTree = "<group>"; };
@@ -319,7 +318,6 @@
 			children = (
 				7B89D48B281EC7F90098FEBE /* RxDataSources */,
 				7B89D48C281EC81E0098FEBE /* RxSwift */,
-				7B89D48D281EC84A0098FEBE /* SDWebImage */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
