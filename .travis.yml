@@ -1,4 +1,6 @@
 os: osx
 osx_image: xcode13.3
 language: swift
-script: xcodebuild clean build test -project OcadoAssignment.xcodeproj -scheme "OcadoAssignment" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=15.4,name=iPhone 13 Pro Max" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+xcode_project: OcadoAssignment.xcodeproj
+xcode_scheme: OcadoAssignment
+xcode_destination: platform=iOS Simulator,OS=15.3,name=iPhone 13 Pro Max
