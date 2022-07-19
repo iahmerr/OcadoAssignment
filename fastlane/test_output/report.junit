@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='OcadoAssignmentTests.xctest' tests='24' failures='0'>
+  <testsuite name='OcadoAssignmentTests.JsonPasingAPITest' tests='2' failures='0'>
+    <testcase classname='OcadoAssignmentTests.JsonPasingAPITest' name='testJsonParsingForProductDetail' time='0.004'/>
+    <testcase classname='OcadoAssignmentTests.JsonPasingAPITest' name='testJsonParsingForProductsAPI' time='0.004'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductDetailApiTest' tests='1' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductDetailApiTest' name='testProductAPI' time='1.451'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductTableViewCellTest' tests='3' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductTableViewCellTest' name='testDataSource' time='0.002'/>
+    <testcase classname='OcadoAssignmentTests.ProductTableViewCellTest' name='testReusableIdentifier' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductTableViewCellTest' name='testTitleLabel' time='0.001'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductsApiTest' tests='2' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductsApiTest' name='test_SuccessAppError' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsApiTest' name='test_SuccessGetProductsServerCall' time='0.957'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductsCatalogViewModelUnitTest' tests='2' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductsCatalogViewModelUnitTest' name='testShowLoader' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsCatalogViewModelUnitTest' name='testTableViewDataSource' time='0.001'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductsCollectionViewCellTest' tests='4' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductsCollectionViewCellTest' name='testProductId' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsCollectionViewCellTest' name='testProductImage' time='0.002'/>
+    <testcase classname='OcadoAssignmentTests.ProductsCollectionViewCellTest' name='testProductPrice' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsCollectionViewCellTest' name='testProductTitle' time='0.001'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' tests='7' failures='0'>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testAlergicIngredients' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testProductDescriptionLabel' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testProductDescriptionTitle' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testProductID' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testProductImage' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testProductPrice' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.ProductsDetailViewModelUnitTest' name='testShowLoader' time='0.001'/>
+  </testsuite>
+  <testsuite name='OcadoAssignmentTests.RouterTest' tests='3' failures='0'>
+    <testcase classname='OcadoAssignmentTests.RouterTest' name='test_ProductionURL' time='0.001'/>
+    <testcase classname='OcadoAssignmentTests.RouterTest' name='test_RouterEnumTestGetProductDetail' time='0.002'/>
+    <testcase classname='OcadoAssignmentTests.RouterTest' name='test_RouterEnumTestGetProducts' time='0.001'/>
+  </testsuite>
+</testsuites>
